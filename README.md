@@ -22,7 +22,7 @@ Summary of what the stack looks like now including a picture with the core tech:
 
 * **Front-end** - Vite as the core framework, MaterialUI and Tailwind for UI, Redux for state management, Axios for request and response interception.
 
-![HTML CSS JAVASSCRIPT](./htmlcssjs.png)
+![stack](./stack.png)
 
 ## Deployment
 
@@ -32,5 +32,3 @@ For this assigment, deployment web at Netlify :
 [Netlify](https://app.netlify.com/)
 
 [Deploy Website](https://assignment2-countrylist.netlify.app/)
-
-
