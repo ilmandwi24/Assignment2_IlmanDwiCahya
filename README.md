@@ -1,8 +1,36 @@
-# React + Vite
+# Country List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My task is integrating with the [REST Countries API](https://restcountries.com/) to pull country data and display it like in the designs.
 
-Currently, two official plugins are available:
+Your users should be able to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- See all countries from the API on the homepage
+- Search for a country using an `input` field
+- Filter countries by region
+- Click on a country to see more detailed information on a separate page
+- Click through to the border countries on the detail page
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+**Figma Design for the website**
+
+![alt text](figmadesign.png)
+
+## Stack
+
+Summary of what the stack looks like now including a picture with the core tech:
+
+* **Front-end** - Vite as the core framework, MaterialUI and Tailwind for UI, Redux for state management, Axios for request and response interception.
+
+![HTML CSS JAVASSCRIPT](./htmlcssjs.png)
+
+## Deployment
+
+For this assigment, deployment web at Netlify :
+![Netlify Logo](./netlifylogo.webp)
+
+[Netlify](https://app.netlify.com/)
+
+[Deploy Website](https://assignment2-countrylist.netlify.app/)
+
+
